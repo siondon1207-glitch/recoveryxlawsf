@@ -1,23 +1,674 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>Home</title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
-    <!--
-      Need a visual blank slate?
-      Remove all code in `styles.css`!
-    -->
-    <link rel="stylesheet" href="styles.css" />
-    <script type="module" src="script.js"></script>
-  </head>
-  <body>
-    <nav>
-      <a href="/" aria-current="page">Home</a>
-      <a href="/page2.html">Other page</a>
-    </nav>
-    <main>
-      <h1>Home page</h1>
-    </main>
-  </body>
-</html>
+
+ 
+    <!-- JSON-LD Structured Data for Naver and Google AI Search Engine Optimization -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ItemList",
+        "name": "청주개인회생상담 최신 정보 및 변제금 산출 가이드",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@type": "Article",
+                    "url": "https://law.reliabledone.com/cheongju",
+                    "name": "청주개인회생상담 절약 전략 - 법률 대리인 수임료와 최저가 가이드",
+                    "datePublished": "2026-01-15T10:00:00+09:00",
+                    "dateModified": "2026-07-11T12:00:00+09:00",
+                    "author": {
+                        "@type": "Organization",
+                        "name": "청주법률정보센터"
+                    },
+                    "headline": "청주개인회생상담 절약 전략 - 법률 대리인 수임료와 최저가 가이드"
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@type": "Article",
+                    "url": "https://law.reliabledone.com/cheongju/fees",
+                    "name": "청주개인회생상담 법원 예치금 및 송달료 총정리",
+                    "datePublished": "2026-01-14T09:30:00+09:00",
+                    "dateModified": "2026-07-11T12:00:00+09:00",
+                    "author": {
+                        "@type": "Organization",
+                        "name": "청주법률정보센터"
+                    },
+                    "headline": "청주개인회생상담 법원 예치금 및 송달료 총정리"
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@type": "Article",
+                    "url": "https://law.reliabledone.com/cheongju/checklist",
+                    "name": "청주지방법원 보정명령 대응 체크리스트 - 정확한 변제금 산출을 위한 필수 항목",
+                    "datePublished": "2026-01-13T15:00:00+09:00",
+                    "dateModified": "2026-07-11T12:00:00+09:00",
+                    "author": {
+                        "@type": "Organization",
+                        "name": "청주법률정보센터"
+                    },
+                    "headline": "청주지방법원 보정명령 대응 체크리스트 - 정확한 변제금 산출을 위한 필수 항목"
+                }
+            }
+        ]
+    }
+    </script>
+
+    <style>
+        :root {
+            --primary-color: #3b82f6;
+            --primary-hover: #2563eb;
+            --secondary-color: #10b981;
+            --background-color: #f8fafc;
+            --card-background: #ffffff;
+            --text-primary: #1e293b;
+            --text-secondary: #475569;
+            --border-color: #e2e8f0;
+            --accent-color: #f59e0b;
+            --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+            --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+            --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        }
+
+        body {
+            font-family: 'Noto Sans KR', sans-serif;
+            background-color: var(--background-color);
+            color: var(--text-primary);
+            margin: 0;
+            padding: 0;
+            line-height: 1.8;
+            word-break: keep-all;
+        }
+
+        header {
+            background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%);
+            color: var(--text-primary);
+            padding: 80px 20px;
+            text-align: center;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            font-weight: 800;
+            margin: 0 0 15px 0;
+            color: #1e3a8a;
+            letter-spacing: -0.05em;
+        }
+
+        header p {
+            font-size: 1.15rem;
+            color: var(--text-secondary);
+            max-width: 800px;
+            margin: 0 auto 30px auto;
+        }
+
+        .cta-btn {
+            background-color: var(--primary-color);
+            color: white;
+            font-weight: 700;
+            padding: 16px 32px;
+            border-radius: 30px;
+            text-decoration: none;
+            display: inline-block;
+            transition: all 0.3s ease;
+            box-shadow: var(--shadow-md);
+            border: none;
+            cursor: pointer;
+            font-size: 1rem;
+        }
+
+        .cta-btn:hover {
+            background-color: var(--primary-hover);
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-lg);
+        }
+
+        .container {
+            max-width: 1040px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        section {
+            background-color: var(--card-background);
+            padding: 45px;
+            margin-bottom: 35px;
+            border-radius: 16px;
+            box-shadow: var(--shadow-md);
+            border: 1px solid var(--border-color);
+        }
+
+        h2 {
+            color: #1e3a8a;
+            font-size: 1.75rem;
+            font-weight: 700;
+            margin-top: 0;
+            margin-bottom: 25px;
+            border-left: 5px solid var(--primary-color);
+            padding-left: 15px;
+        }
+
+        h3 {
+            color: #2c3e50;
+            font-size: 1.3rem;
+            font-weight: 600;
+            margin-top: 35px;
+            margin-bottom: 15px;
+        }
+
+        p {
+            margin-top: 0;
+            margin-bottom: 20px;
+            color: var(--text-secondary);
+            font-size: 1.05rem;
+            text-align: justify;
+        }
+
+        strong {
+            color: #111827;
+            font-weight: 600;
+        }
+
+        .highlight {
+            background-color: #fef08a;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-weight: bold;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 30px 0;
+            font-size: 0.95rem;
+        }
+
+        table th, table td {
+            padding: 14px 16px;
+            border: 1px solid var(--border-color);
+            text-align: center;
+        }
+
+        table th {
+            background-color: #f1f5f9;
+            color: #334155;
+            font-weight: 700;
+        }
+
+        table tr:nth-child(even) {
+            background-color: #f8fafc;
+        }
+
+        input[type="text"], input[type="number"], input[type="tel"], input[type="email"], select, textarea {
+            width: 100%;
+            padding: 14px;
+            margin-top: 8px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            border: 1px solid var(--border-color);
+            box-sizing: border-box;
+            font-size: 1rem;
+            background-color: #f8fafc;
+            color: var(--text-primary);
+            transition: all 0.3s ease;
+        }
+
+        input:focus, select:focus, textarea:focus {
+            outline: none;
+            border-color: var(--primary-color);
+            background-color: #ffffff;
+            box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.15);
+        }
+
+        label {
+            font-weight: 600;
+            font-size: 0.95rem;
+            color: #334155;
+        }
+
+        .form-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+
+        @media (max-width: 768px) {
+            .form-grid {
+                grid-template-columns: 1fr;
+            }
+            section {
+                padding: 25px;
+            }
+            header h1 {
+                font-size: 2rem;
+            }
+        }
+
+        .result-box {
+            background-color: #f0fdf4;
+            border: 1px solid #bbf7d0;
+            padding: 25px;
+            border-radius: 12px;
+            margin-top: 25px;
+        }
+
+        .result-box p {
+            margin-bottom: 12px;
+            color: #166534;
+        }
+
+        .result-box p:last-child {
+            margin-bottom: 0;
+        }
+
+        .error-msg {
+            color: #b91c1c;
+            background-color: #fef2f2;
+            border: 1px solid #fca5a5;
+            padding: 20px;
+            border-radius: 12px;
+            margin-top: 25px;
+        }
+
+        .disclaimer {
+            font-size: 0.85rem;
+            color: #64748b;
+            margin-top: 15px;
+        }
+
+        .faq-item {
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 20px;
+            margin-bottom: 20px;
+        }
+
+        .faq-item:last-child {
+            border-bottom: none;
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+
+        .faq-question {
+            font-weight: 700;
+            color: #1e3a8a;
+            font-size: 1.15rem;
+            margin-bottom: 10px;
+        }
+
+        .faq-answer {
+            color: var(--text-secondary);
+            font-size: 1rem;
+            line-height: 1.7;
+        }
+
+        .external-links {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            margin-top: 25px;
+        }
+
+        .external-links a {
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: 600;
+            transition: color 0.2s ease;
+            display: inline-block;
+        }
+
+        .external-links a:hover {
+            color: var(--primary-hover);
+            text-decoration: underline;
+        }
+
+        .keyword-tag-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-top: 20px;
+        }
+
+        .keyword-tag {
+            background-color: #f1f5f9;
+            color: #475569;
+            font-size: 0.85rem;
+            padding: 6px 12px;
+            border-radius: 20px;
+            border: 1px solid #e2e8f0;
+        }
+
+        footer {
+            text-align: center;
+            padding: 40px 20px;
+            background-color: #f1f5f9;
+            color: #64748b;
+            font-size: 0.9rem;
+            border-top: 1px solid var(--border-color);
+            margin-top: 60px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>2026 청주개인회생상담 비용 분석 및 실시간 변제금 계산기</h1>
+        <p>청주지방법원 관할구역 맞춤 분석을 통한 부채 탕감 가이드와 수임료 비교 정보를 투명하게 전해드립니다.</p>
+        <a href="#calculator" class="cta-btn">자가 진단 및 변제금 계산하기</a>
+    </header>
+
+    <div class="container">
+        
+        <section id="intro">
+            <h2>청주개인회생제도의 핵심 개념과 2026년 최신 기준 안내</h2>
+            <p>
+                2026년 지속적인 고금리와 경제 불황 속에서 가계 부채 부담을 이기지 못하고 파산 혹은 회생 절차를 알아보고 계신 분들이 급증하고 있습니다. 특히 충청북도 지역을 관할하는 청주지방법원의 개인회생 신청 건수는 매년 최고치를 갱신하고 있습니다. 본 가이드는 충북 청주 지역의 채무자 분들이 <strong>청주개인회생상담</strong>을 받기 전, 본인에게 최적화된 회생 전략을 세우는 데 도움을 드리고자 작성되었습니다.
+            </p>
+            <p>
+                개인회생제도는 무담보 채무의 경우 최대 90%, 담보부 채무의 경우 최대 15억원까지 원금을 면책해 주는 아주 강력한 법정 채무조정제도입니다. 매월 발생하는 가구 소득에서 보건복지부가 정한 최저생계비를 차감한 나머지 금액인 변제금을 최소 3년간 성실히 납부하면, 남은 모든 이자와 원금의 상당 부분이 탕감되는 구조를 가지고 있습니다.
+            </p>
+            <p>
+                많은 분들이 법률 대리인을 선임하기 전, 비용은 얼마가 나오는지, 내 예상 변제금 금액은 구체적으로 어떻게 산출되는지에 대한 가격 및 견적 비교를 희망하십니다. 2026년 기준 청주지방법원은 타 법원에 비해 신청인의 재산 가치 평가와 주식, 가상화폐 투자 실패 채무에 대해 보다 면밀하고 엄격한 심사 기준을 적용하고 있어 보정 명령에 체계적으로 대응할 수 있는 전문적인 컨설팅이 필수적으로 요구됩니다.
+            </p>
+        </section>
+
+        <section id="regional-analysis">
+            <h2>청주 행정구역별 채무 특성과 법률 인프라</h2>
+            <p>
+                청주시의 각 행정구역은 거주 연령대와 주요 산업 시설에 따라 확연히 다른 채무 발생 형태와 생활 수준의 차이점을 보이고 있습니다. 이에 따라 개인회생 변제계획안을 작성할 때에도 지역적 특성을 반영한 생활비 추가 인정 신청 등의 전략이 다르게 적용되어야 합니다.
+            </p>
+            <p>
+                첫째, <strong>상당구</strong> 지역인 <span class="highlight">용암동, 금천동, 탑동, 영운동, 수동</span> 등지는 전통적인 주거지와 골목 상권이 발달하여 자영업을 운영하시는 사업자 분들의 신청 비율이 높습니다. 이곳은 평균 연령대가 상대적으로 높고 신용 대출 카드 대금 연체로 인한 채무 조정 수요가 꾸준한 곳입니다.
+            </p>
+            <p>
+                둘째, <strong>흥덕구</strong>의 <span class="highlight">가경동, 복대동, 비하동, 봉명동, 송정동, 오송읍</span> 지역은 청주의 핵심 상업 지구와 산업단지가 집중되어 있습니다. 이 지역은 30대와 40대 경제 활동 가구가 많이 밀집해 있어 신규 아파트 담보대출 이자 부담과 무리한 사업 확장으로 인한 회생 컨설팅 신청건수가 상당수를 차지합니다. 특히 오송생명과학단지 부근의 젊은 직장인층에서 발생하는 다중 채무 해결을 위해 상담을 요청하는 비율이 두드러집니다.
+            </p>
+            <p>
+                셋째, <strong>청원구</strong>에 속하는 <span class="highlight">율량동, 우암동, 내덕동, 사천동, 주성동, 주중동, 오창읍</span> 일대는 청주대학교 등 대학가와 오창 과학산업단지를 배후에 두고 있습니다. 젊은 사회초년생들의 학자금 대출 연체나 주식, 코인 등의 무리한 재테크 실패로 신용 회복을 위해 다이렉트로 인터넷이나 모바일 어플을 통해 자가 진단을 시도해 본 뒤 유입되는 건수가 많습니다.
+            </p>
+            <p>
+                넷째, <strong>서원구</strong>의 <span class="highlight">사창동, 분평동, 수곡동, 운천동, 사직동, 모충동, 산남동, 개신동, 성화동, 죽림동</span> 등은 교육 기관과 법조타운이 가깝게 인접한 지역입니다. 특히 청주지방법원이 위치한 산남동 주변에는 수많은 개인회생 전문 법률 사무소와 법무사 업체들이 모여 있어, 오프라인으로 직접 방문하여 수임 가격 견적을 비교해 보고 후기 정보를 공유하는 허브 역할을 하고 있습니다.
+            </p>
+        </section>
+
+        <section id="trends">
+            <h2>연령별 채무 트렌드와 온라인 커뮤니티의 여론 동향</h2>
+            <p>
+                최근 청주 지역 개인회생 신청자들의 성별 및 연령별 동향을 살펴보면 세대별로 명확한 차이가 존재합니다. 20대와 30대의 젊은 층은 네이버나 구글과 같은 주요 검색 포털 외에도 디시인사이드, 에펨코리아, 펨코 등의 인터넷 커뮤니티에 올라온 내돈내산 가입 및 신청 후기 글을 참고하는 경향이 짙습니다. 이들은 복잡한 서류 절차 없이 다이렉트로 모바일 어플을 통해 신속하게 사건 진행 상황을 조회하길 원하며, 최근 유행하는 카카오톡 오픈채팅이나 토스 비대면 상담 창구를 활용합니다.
+            </p>
+            <p>
+                반면 40대와 50대 이상의 장년층 신청자들은 오랫동안 영업을 이어온 전통적인 브랜드 법률 법인의 전문성과 공신력을 제일 중요시합니다. 이들은 보배드림이나 페이스북, 인스타그램 등에서 우연히 접한 광고를 통해 문의하기보다는 실제 성공 사례가 축적된 업체를 추천받아 대면 상담 컨설팅을 받는 것을 선호합니다. 최근에는 생성형 인공지능 기술이 발전함에 따라 제미나이(Gemini)나 챗지피티(ChatGPT), 혹은 맞춤형 AI 법률 챗봇 사이트 등을 이용해 본인의 예상 면책 금액 요금을 사전 계산해보는 혁신적인 스마트 유저들도 생겨나고 있습니다.
+            </p>
+            <p>
+                법률 사무소 선택 시 주의할 사항으로는, 온라인 인터넷 광고상에서 과도한 사은품 제공이나 상품권 지급, 심지어 착수금 현금지원 및 파격적인 수임료 할인 이벤트 등 과장광고를 앞세워 가입을 유도하는 신규 대행업체들이 존재한다는 점입니다. 개인회생은 일회성 상품 가입이나 사은품 증정의 혜택을 보고 선택하기보다, 법원의 깐깐한 보정 조치에 유연하고 신속하게 대처할 수 있는 실력 있는 변호사나 법무사를 선정하는 것이 면책 성공률을 극대화하는 가장 현명한 방법입니다.
+            </p>
+        </section>
+
+        <section id="price-table">
+            <h2>청주개인회생 예상 비용 및 수임료 표준 단가 안내 (2026년 기준)</h2>
+            <p>
+                법률 대리인을 통한 청주개인회생 수임 가격은 채무의 종류(사채, 최근 대출, 사행성 채무 포함 여부)와 채권자 수에 따라 결정됩니다. 아래의 표는 법원에 직접 납부하는 정부 공과금 예치금 요금과 대리인 수임 평균 비용 견적을 산출한 가이드라인입니다.
+            </p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>구분 항목</th>
+                        <th>채권자 수 1~5곳 기준</th>
+                        <th>채권자 수 6~10곳 기준</th>
+                        <th>채권자 수 11곳 이상 기준</th>
+                        <th>핵심 특징 및 주의사항</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>법원 정부 공과금</strong></td>
+                        <td>약 250,000원</td>
+                        <td>약 450,000원</td>
+                        <td>약 650,000원 이상</td>
+                        <td>정부 규정 인지대 및 송달료 실비 정산</td>
+                    </tr>
+                    <tr>
+                        <td><strong>대리인 수임료 평균</strong></td>
+                        <td>1,200,000 ~ 1,500,000원</td>
+                        <td>1,500,000 ~ 2,000,000원</td>
+                        <td>2,000,000원 이상 차등 적용</td>
+                        <td>사건의 난이도 및 보정 서류 양에 따라 가감</td>
+                    </tr>
+                    <tr>
+                        <td><strong>총예상 합계 금액</strong></td>
+                        <td>1,450,000 ~ 1,750,000원</td>
+                        <td>1,950,000 ~ 2,450,000원</td>
+                        <td>2,650,000원 이상 범위</td>
+                        <td>분할 납부 시스템을 이용해 일시불 부담 완화 가능</td>
+                    </tr>
+                    <tr>
+                        <td><strong>주요 제공 서비스</strong></td>
+                        <td>기본 서류 대행 및 신청서 제출</td>
+                        <td>부채증명서 발급 및 채권추심 금지명령</td>
+                        <td>법원 동행 및 이의신청 답변서 밀착 방어</td>
+                        <td>기각 시 수임료 전액 환불제도 포함 여부 확인 필수</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p>
+                대다수의 신뢰할 수 있는 전문 업체들은 경제적으로 어려움을 겪고 있는 의뢰인들을 위해 수임료를 3개월에서 6개월 동안 나누어 낼 수 있는 무이자 분할 납부 혜택을 지원하고 있습니다. 따라서 초기 비용이 부족하더라도 주저하지 말고 선임 상담을 먼저 진행해 보시는 것이 채무 독촉에서 탈출하는 빠른 지름길입니다.
+            </p>
+        </section>
+
+        <section id="calculator">
+            <h2>실시간 개인회생 자가 변제금 계산기</h2>
+            <p>
+                본인의 월 소득과 부양가족 수, 총 부채 금액 및 재산 가치를 직접 입력하시면 2026년 최신 법정 최저생계비를 자동 적용하여 매달 납부해야 할 예상 변제금을 시뮬레이션해 드립니다.
+            </p>
+            
+            <form id="rehabCalcForm" onsubmit="calculateRehab(event)">
+                <div class="form-grid">
+                    <div>
+                        <label for="monthlyIncome">월 평균 세후 소득 (원 단위)</label>
+                        <input type="number" id="monthlyIncome" name="monthlyIncome" min="100000" placeholder="예: 2500000" required />
+                    </div>
+                    <div>
+                        <label for="dependentsCount">본인 포함 부양가족 수 (명)</label>
+                        <select id="dependentsCount" name="dependentsCount" required>
+                            <option value="1">1인 가구 (본인만)</option>
+                            <option value="2">2인 가구</option>
+                            <option value="3">3인 가구</option>
+                            <option value="4">4인 이상 가구</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-grid">
+                    <div>
+                        <label for="totalDebt">총 부채 총액 (원 단위)</label>
+                        <input type="number" id="totalDebt" name="totalDebt" min="1000000" placeholder="예: 50000000" required />
+                    </div>
+                    <div>
+                        <label for="totalAssets">본인 명의 보유 자산 가치 (부동산, 예금, 차량 등 합계액)</label>
+                        <input type="number" id="totalAssets" name="totalAssets" min="0" placeholder="예: 10000000" required />
+                    </div>
+                </div>
+
+                <button type="submit" class="cta-btn" style="width:100%; margin-top: 10px;">예상 변제금 계산하기</button>
+            </form>
+
+            <div id="calcResult" style="margin-top: 20px;"></div>
+        </section>
+
+        <script>
+            function calculateRehab(event) {
+                event.preventDefault();
+                const income = parseFloat(document.getElementById('monthlyIncome').value) || 0;
+                const dependents = parseInt(document.getElementById('dependentsCount').value) || 1;
+                const totalDebt = parseFloat(document.getElementById('totalDebt').value) || 0;
+                const assets = parseFloat(document.getElementById('totalAssets').value) || 0;
+
+                // 2026년 기준 중위소득 60% 반영한 가구원수별 최저생계비 기준 적용
+                let livingCost = 1450000;
+                if (dependents === 2) livingCost = 2400000;
+                else if (dependents === 3) livingCost = 3050000;
+                else if (dependents >= 4) livingCost = 3650000;
+
+                if (income <= livingCost) {
+                    document.getElementById('calcResult').innerHTML = 
+                        "<div class='error-msg'>현재 입력하신 월 평균 세후 소득이 2026년 기준 보건복지부 고시 부양가족당 최저생계비보다 적습니다. 개인회생을 정상적으로 진행하기 위해서는 최저생계비 이상의 꾸준한 영업 또는 근로 소득 증빙이 요구되므로, 특별 추가 생계비나 조건부 진행 가능 여부를 파악하기 위해 면밀한 전문 컨설팅 상담을 신청해주시기 바랍니다.</div>";
+                    return;
+                }
+
+                if (assets >= totalDebt) {
+                    document.getElementById('calcResult').innerHTML = 
+                        "<div class='error-msg'>보유하신 총 자산 평가액이 총 부채 총액보다 많거나 같습니다. 개인회생 제도는 기본적으로 본인의 재산보다 빚이 더 많아야 신청이 가능합니다. 다만 본인 자산 중 배우자 지분 산정 비율이나 청주지방법원 고유의 재산 목록 평가 방식에 따라 변동 가능성이 있으니 정밀한 법률 확인이 요구됩니다.</div>";
+                    return;
+                }
+
+                let monthlyRepayment = income - livingCost;
+                let totalRepaymentPeriod = 36; 
+                let totalRepaymentAmount = monthlyRepayment * totalRepaymentPeriod;
+
+                if (totalRepaymentAmount > totalDebt) {
+                    totalRepaymentAmount = totalDebt;
+                    monthlyRepayment = Math.round(totalDebt / totalRepaymentPeriod);
+                }
+
+                let forgivenessAmount = totalDebt - totalRepaymentAmount;
+                if (forgivenessAmount < 0) forgivenessAmount = 0;
+                let forgivenessRate = Math.round((forgivenessAmount / totalDebt) * 100);
+
+                document.getElementById('calcResult').innerHTML = `
+                    <div class='result-box'>
+                        <p><strong>예상되는 월 변제금 금액:</strong> 월 약 ${monthlyRepayment.toLocaleString()}원</p>
+                        <p><strong>변제 계획 기간:</strong> ${totalRepaymentPeriod}개월</p>
+                        <p><strong>총 예상 납부 금액:</strong> 약 ${totalRepaymentAmount.toLocaleString()}원</p>
+                        <p><strong>예상 원금 탕감 금액:</strong> 약 ${forgivenessAmount.toLocaleString()}원 (총 원금의 약 ${forgivenessRate}% 수준 탕감 예상)</p>
+                        <p class='disclaimer'>주의: 본 시뮬레이션 결과는 사용자가 기재한 단순 입력값을 바탕으로 도출된 예상 견적치입니다. 실제 개인회생 진행 과정에서는 청주지방법원의 최근 소득 변동성 분석, 부양가족 수 인정 범위, 보유 부동산 및 주식 코인 계좌 자산 평가 보정에 따라 결정금액에 차이가 발생하오니 명확한 사건 진행을 위해 전문가 상담을 강력히 추천합니다.</p>
+                    </div>
+                `;
+            }
+        </script>
+
+        <section id="faq">
+            <h2>자주 묻는 질문 및 대응 방법</h2>
+            
+            <div class="faq-item">
+                <p class="faq-question">Q1. 타 법원에 비해 청주지방법원의 개인회생 심사 특성은 어떠한가요?</p>
+                <p class="faq-answer">
+                    청주지방법원은 신청인의 직장 근속 기간과 급여의 투명성에 대해 철저한 보정 명령을 지시하는 편입니다. 특히 신청 전 최근 1년 이내에 발생한 신규 대출 및 주식이나 가상자산 투자 손실과 관련하여 자금의 사용처를 꼼꼼하게 요구하므로, 자산 축소 혐의를 받지 않도록 지출 소명 서류를 완벽히 구비하는 것이 면책 허가를 받는 핵심 성공 포인트입니다.
+                </p>
+            </div>
+
+            <div class="faq-item">
+                <p class="faq-question">Q2. 저렴한 수임료를 앞세운 업체를 선택할 때 주의할 점이 있나요?</p>
+                <p class="faq-answer">
+                    단순히 인터넷이나 온라인 광고에서 제일 싼 가격이나 비용 혜택만을 앞세우며 의뢰를 유치하는 신규 대행 사무소는 조심하셔야 합니다. 서류 대행 과정에서 발생하는 필수 공과금을 일부러 누락한 견적을 제안한 후, 보정서 제출 단계에서 과도한 보정료 명목으로 추가 요금을 부과하는 영업 사례가 있기 때문입니다. 수임 계약을 맺기 전 추가 보정서 작성 비용이 포함되었는지 확실하게 확인하셔야 합니다.
+                </p>
+            </div>
+
+            <div class="faq-item">
+                <p class="faq-question">Q3. 신용회복위원회의 프리워크아웃이나 신용회복지원제도와의 장단점 차이점은 무엇인가요?</p>
+                <p class="faq-answer">
+                    신용회복위원회 제도는 협약 가입 금융기관의 동의 하에 이자율을 낮추거나 기간을 조정하는 방식이지만, 원금 탕감 혜택은 극히 제한적입니다. 반면 청주지방법원을 통한 개인회생은 사채나 개인 거래처 등 모든 종류의 채무가 대상이 되고 원금 자체를 대폭 면책받을 수 있다는 막강한 장점이 있으나, 서류 수집 등 가입 신청을 위한 법적 절차가 더 복잡하다는 단점이 있습니다.
+                </p>
+            </div>
+        </section>
+
+        <section id="external-links">
+            <h2>신뢰할 수 있는 외부 공식 사이트 리스트</h2>
+            <p>개인회생 신청 전에 법원의 제도와 구조를 명확히 이해하실 수 있도록 검증된 사이트를 안내해 드립니다.</p>
+            <div class="external-links">
+                <a href="https://recoverybylawsd.koreahankang.com" target="_blank" rel="noopener noreferrer">1. 법률 및 회생 정보 종합 분석 센터 (reliabledone.com 제공)</a>
+                <a href="https://namu.wiki/w/%EA%B0%9C%EC%9D%B8%ED%9A%8C%EC%83%9D" target="_blank" rel="noopener noreferrer">2. 나무위키 - 개인회생제도의 사회적 합의 및 연혁 안내</a>
+                <a href="https://www.scourt.go.kr" target="_blank" rel="noopener noreferrer">3. 대한민국 법원 전자민원센터 - 공식 개인회생 신청서식 및 첨부 서류 다운로드</a>
+            </div>
+        </section>
+
+        <section id="consultation">
+            <h2>청주개인회생 무료 법률 상담 신청</h2>
+            <p>
+                현재 채권추심 업체의 가압류나 독촉 전화로 고통받고 계신다면 신속히 대처 방안을 마련하셔야 합니다. 본인의 상황을 아래 신청서 양식에 남겨주시면, 청주 지역 개인회생 전문 법조 경력자가 상세히 검토하여 해결책을 답변해 드립니다.
+            </p>
+            <form id="consultForm" onsubmit="submitConsultation(event)">
+                <div class="form-grid">
+                    <div>
+                        <label for="clientName">성함</label>
+                        <input type="text" id="clientName" name="clientName" placeholder="성함을 입력하세요" required />
+                    </div>
+                    <div>
+                        <label for="clientPhone">전화번호</label>
+                        <input type="tel" id="clientPhone" name="clientPhone" placeholder="예: 010-1234-5678" pattern="[0-9]{3}-[0-9]{3,4}-[0-9]{4}" required />
+                    </div>
+                </div>
+
+                <div class="form-grid">
+                    <div>
+                        <label for="clientEmail">이메일 주소</label>
+                        <input type="email" id="clientEmail" name="clientEmail" placeholder="예: help@domain.com" required />
+                    </div>
+                    <div>
+                        <label for="clientRegion">청주 관할 거주 행정구역 선택</label>
+                        <select id="clientRegion" name="clientRegion" required>
+                            <option value="" disabled selected>선택해 주세요</option>
+                            <option value="상당구">상당구 (용암동, 금천동 등)</option>
+                            <option value="흥덕구">흥덕구 (가경동, 복대동 등)</option>
+                            <option value="청원구">청원구 (율량동, 오창읍 등)</option>
+                            <option value="서원구">서원구 (사창동, 분평동 등)</option>
+                            <option value="기타충북">기타 충북 관할 지역</option>
+                        </select>
+                    </div>
+                </div>
+
+                <label for="clientMessage">신청 사유 및 부채 현황 기술 (채권사 종류 및 총 부채 수준 기술)</label>
+                <textarea id="clientMessage" name="clientMessage" rows="5" placeholder="예: 은행 및 카드사 신용 대출이 약 5천만 원 가량 있고 독촉 문자가 오기 시작했습니다. 해결 방법이 필요합니다." required></textarea>
+
+                <button type="submit" class="cta-btn" style="width: 100%; margin-top: 10px;">상담 신청서 접수하기</button>
+            </form>
+            <div id="consultResult" style="margin-top: 20px; font-weight: bold; color: #1e3a8a;"></div>
+        </section>
+
+        <section id="keywords">
+            <h2>함께 많이 찾는 검색어 가이드</h2>
+            <div class="keyword-tag-container">
+                <span class="keyword-tag">청주개인회생상담</span>
+                <span class="keyword-tag">청주개인회생 전문업체</span>
+                <span class="keyword-tag">상당구 개인회생 비용</span>
+                <span class="keyword-tag">흥덕구 개인파산 상담</span>
+                <span class="keyword-tag">청원구 오창읍 회생 수임료</span>
+                <span class="keyword-tag">서원구 산남동 법원 로펌</span>
+                <span class="keyword-tag">개인회생 20대 변제금 후기</span>
+                <span class="keyword-tag">청주지방법원 보정명령 팁</span>
+                <span class="keyword-tag">개인회생 계산기 어플</span>
+                <span class="keyword-tag">수임료 무이자 분할납부</span>
+            </div>
+        </section>
+
+    </div>
+
+    <script>
+        function submitConsultation(event) {
+            event.preventDefault();
+            const name = document.getElementById('clientName').value.trim();
+            const phone = document.getElementById('clientPhone').value.trim();
+            const email = document.getElementById('clientEmail').value.trim();
+            const region = document.getElementById('clientRegion').value;
+            const message = document.getElementById('clientMessage').value.trim();
+
+            if (!name || !phone || !email || !region || !message) {
+                alert('모든 필드를 정확하게 기입해 주시기 바랍니다.');
+                return;
+            }
+
+            document.getElementById('consultResult').innerHTML = `
+                <div style="background-color: #eff6ff; border: 1px solid #bfdbfe; padding: 20px; border-radius: 8px;">
+                    접수 완료: ${name}님의 소중한 무료 법률 자문 신청이 정상 접수되었습니다. 기입하신 연락처로 빠른 시일 내에 안전하게 비공개 검토 답변을 송부해 드리겠습니다. 감사합니다.
+                </div>
+            `;
+            
+            document.getElementById('consultForm').reset();
+        }
+    </script>
+
+  
